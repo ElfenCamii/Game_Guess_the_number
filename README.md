@@ -28,7 +28,7 @@ A través del desarrollo del juego se busca:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/Game_Guess_the_Number.git
+git clone https://github.com/ElfenCamii/Game_Guess_the_number
 cd Game_Guess_the_Number
 ```
 
@@ -38,7 +38,11 @@ cd Game_Guess_the_Number
 ```bash
 Game_Guess_the_Number/
 │
-├── main.py               # Código principal del juego
+├── src/                  # 💡 Código fuente principal del proyecto
+│   ├── __init__.py
+│   ├── main.py           # punto de entrada (inicio del juego)
+│   ├── game_logic.py     # lógica del juego
+│   └── utils.py          # funciones auxiliares
 ├── README.md             # Este archivo
 ├── .gitignore            # Archivos y carpetas ignorados por Git
 └── LICENSE               # Licencia MIT
